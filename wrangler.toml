@@ -1,0 +1,11 @@
+name = "xyd-cloudflare"
+main = "./index.ts"             
+compatibility_date = "2025-07-01"
+
+[build]
+command = "bunx @xyd-js/cli build"
+
+[assets]
+directory = ".xyd/build/client"     
+binding = "ASSETS"                  
+not_found_handling = "single-page-application"
